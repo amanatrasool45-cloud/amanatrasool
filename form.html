@@ -4,28 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            h-screen: 80vh;
+            w-screen: 50vw;
+            background-image: url('wall.jpg');
+            background-size: cover;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <form>    <label>dropdown list</label>
-    <select>        
-       <optgroup label="fruits">
+    <div class="imgm">
+            
+        <img src="black-red-hoodie-devil-boy-2zfq06lao66v0d9h.jpg" alt="Profile image for me">
+        </div>
         
-          <option>Apple</option>
-          <option selected>Banana</option>
-          <option>Orange</option>
-         </optgroup>
-    </select> 
+    <form action="css.html" method="post">
+        <bold>Personal Information</bold>
+        <p><pre>my name is amanat rasool 
+ i am a student bsc in data scince<br> i am 19 years old <br> i am from utter-pardesh <br> i am a web developer <br> 
+ i like coding & web development </pre> </p>
+ <label>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female 
+    <input type="radio" name="gender" value="boy"> Boy 
+    <input type="radio" name="gender" value="girl"> Girl
+ </label>
 
-    <br><br>
+ <p>amanat<sub>rasool</sub>idrisi</p>
+ <p>amanat.rasool<sup>idrisi</sup></p>
+ <hr><hr><a href="https://www.google.com/" target="main">googlee</a>
+ <hr>
+        
 
-    <fieldset>
-        <legend>Personal information</legend>
-        <label for="name">username</label>
-        <input  type="text" id="name">
-        <br>
-        <label for="password" >password</label>
-        <input type="password" id="password" placeholder="enter your password">
-    </fieldset>
+        <fieldset>
+            <legend><h2>Personal Information</h2></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+            <label for="submit">submit</label>
+            <input type="submit" name="submit"><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <optgroup label="Select your gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <div>video</div>
+        <section>
+            <video controls autoplay muted loop>
+            <source src="188742-883619742.mp4" type="video/mp4" WIDTH="100" HEIGHT="80VH">
+            </video>
+                
+        </section>
+        <div>audio</div>
+        <section>
+            <audio controls autoplay loop>
+            <source src="Freaky-halloween-chosic.com_.mp3" type="audio/mpeg" width="full">
+            </audio>
+            </section>
+            <div>map</div>
+            <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.905168187775!2d75.7850911749606!3d30.90015598168625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39102c5e7b8a5e7b%3A0x8c8c8c8c8c8c8c8c!2sPunjab%20University%20College%20of%20Engineering%20and%20Technology%20(PUCET)!5e0!3m2!1sen!2sin!4v1634567890123" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" width="100%"></iframe>
+    <br>
+    <div>pdf</div>
+    <embed src=""
 
     </form>
 

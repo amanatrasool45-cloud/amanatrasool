@@ -1,0 +1,2 @@
+"# amanat"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/amanatrasool45-cloud/amanat.gitgit push -u origin main
+"# AmanatR"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/amanatrasool45-cloud/AmanatR.gitgit push -u origin main
